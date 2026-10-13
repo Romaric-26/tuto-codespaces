@@ -24,7 +24,7 @@ def moyenne(valeurs):
     """
     M = 0
     if len(valeurs)==0:
-        return ValueError
+        raise ValueError("La liste ne peut pas être vide")
     else:
         for i in range(len(valeurs)):
             M += valeurs[i]
