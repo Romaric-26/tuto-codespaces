@@ -24,7 +24,7 @@ def moyenne(valeurs):
     """
     M = 0
     if len(valeurs)==0:
-        return False
+        return ValueError
     else:
         for i in range(len(valeurs)):
             M += valeurs[i]
