@@ -22,6 +22,11 @@ def moyenne(valeurs):
 
     ---
     """
+    M=0
+    for i in range (len(valeurs)):
+        M+=valeurs[i]
+    return M/len(valeurs)
+
     print("!! TODO : Compléter la fonction moyenne !!", end=" ")
     pass
 
